@@ -1,0 +1,99 @@
+body {
+    background-image: url('efile-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: whitesmoke;
+    border: 1px solid white;
+}
+.card-header {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 150px; 
+    height: 100px; 
+    object-fit: cover;
+}
+
+
+#title{
+    color: white !important;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5em;
+    text-shadow: 10px 5px 5px black;
+
+}
+.card-header {
+    color: aqua;
+}
+
+#col-container{
+    padding: 20px;
+}
+.body-con {
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+.img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button[type='submit'] { 
+    background-color: red !important;
+    border: 0 !important;
+    padding: 10px;
+}
+button[type='submit']:hover {
+    background-color: green !important;
+
+}
+
+@media screen and (max-width:600px) {
+    #title{
+        font-size: 2em;
+    
+    }
+}
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#search-bar{
+    width: 50%;
+    height: 60px;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.input-box button {
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.input-box button img {
+    width: 16px;
+}
